@@ -1,0 +1,43 @@
+.portfolio__main-title{
+    font-family: $secomdary-font;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+    font-style: normal;
+    color: #4e4e4e;
+    padding-top: 50px;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+    padding: 22px 0 63px;
+
+    &-ourwork__img{
+        widows: 354px;
+        height: 249px;
+        margin-bottom: 25px;
+    }
+    &__title{
+        font-family: $third-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: #4E4E4E;
+        text-decoration: none;
+    }
+    &__suptitle{
+        font-family: $third-font;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #ADADAD;
+    }
+    &__text{
+        line-height: 28px;
+        color: #5C5C5C;
+    }
+}

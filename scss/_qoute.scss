@@ -1,0 +1,22 @@
+.qoute{
+    padding: 133px 117px 91px;
+
+    &__text{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #A1A1A1;
+    position: relative;
+    
+    &::before{
+        content: "";
+        width: 45px;
+        height: 38px;
+        position: absolute;
+        top: -70px;
+        left: 50%;
+        background: url(../image/qoute.png) no-repeat;
+        
+    }
+    }
+}

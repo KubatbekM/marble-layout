@@ -1,0 +1,38 @@
+.banner{
+    background: url(../image/MaskGroup.png) repeat-x;
+    padding: 180px 72px 205px 72px;
+    text-align: center;
+    &__inner-title{
+        font-family: $third-font;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__inner-suptitle{
+        font-family: $third-font;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 40px;
+        font-style: normal;
+        color: #a8a8a8;
+        text-align: center;
+        margin: 40px 0 50px;
+    }
+    &__inner-btn{
+        border-radius: 5px;
+        background-color: #3f8dbf;
+        font-family: $secomdary-font;
+        font-weight: 400;
+        line-height: 14px;
+        font-style: normal;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 16px 20px 15px;
+    }
+
+}

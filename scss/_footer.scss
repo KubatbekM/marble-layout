@@ -1,0 +1,66 @@
+footer {
+    background-color: #1f1f1f;
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 40px;
+        padding: 54px 0 0;
+        border-bottom: 2px solid #353535;
+        &__block-title{
+            font-family: $secomdary-font;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #6C6C6C;
+
+        }
+        &__block-text{
+            font-family: Roboto;
+            line-height: 24px;
+            color: #cacaca;
+            padding: 0 0 36px 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        &__twitter-text{
+            position: relative;
+            padding-left: 20px;
+            background-image: url(../image/twitter.png);
+            background-repeat: no-repeat;
+            background-position: 0 7px;
+        }
+        &__us{
+            margin: 0;
+        }
+        &__us-text{
+            line-height: 24px;
+            color: #FFFFFF;
+            padding-left: 20px;
+            text-decoration: none;
+        }
+        &__us-address{
+            background-image: url(../image/address.png);
+            background-repeat: no-repeat;
+            background-position: 0 5px;
+        }
+        &__us-tel{
+            background-image: url(../image/telephone.png);
+            background-repeat: no-repeat;
+            background-position: 0 5px;
+        }
+        &__us-mail{
+            background-image: url(../image/mail.png);
+            background-repeat: no-repeat;
+            background-position: 0 5px;
+        }
+        &__block-bottom{
+            line-height: 22px;
+            color: #CACACA;
+            padding: 45px 0;
+        }
+     } 
+  }
+ 

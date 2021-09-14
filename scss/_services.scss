@@ -1,0 +1,82 @@
+.service {
+    &__menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 31px;
+        text-align: center;
+        list-style: none;
+        padding-top: 180px;
+        padding-bottom: 48px;
+        border-bottom: 1px solid #bbaeae;
+    }
+    &__title{
+        font-family: $third-font;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        font-style: normal;
+        color: #4e4e4e;
+        text-align: center;
+        padding-bottom: 17px;
+    }
+    &_text{
+        color: hsla(0, 0%, 0%, 1);
+    }
+    &__item-lamp{
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: -90px;
+            left: 90px;
+            background-image: url(../image/icon.png);
+            
+        }
+    }
+    &__item-watch{
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: -90px;
+            left: 90px;
+            background-image: url(../image/Group1.png);
+            
+        }
+    }
+    &__item-flask{
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: -90px;
+            left: 90px;
+            background-image: url(../image/icon1.png);
+            
+        }
+    }
+    &__item-star{
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: -90px;
+            left: 90px;
+            background-image: url(../image/icon2.png);
+            
+        }
+    }
+
+}
